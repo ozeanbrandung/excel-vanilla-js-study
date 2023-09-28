@@ -9,8 +9,8 @@
 		"build": "webpack --config ./buildConfig/webpack.prod.config.js",
 		"lint": "eslint --ignore-path .eslintignore --ext .js,.ts .",
 		"format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
-		"stylelint": "npx stylelint \"**/*.scss\"",
-		"stylelint:fix": "npx stylelint \"**/*.scss\" --fix"
+		"stylelint": "npx stylelint --config .stylelintrc.js \"**/*.scss\"",
+		"stylelint:fix": "npx stylelint --config .stylelintrc.js \"**/*.scss\" --fix"
 	},
 	"keywords": [],
 	"author": "",
@@ -37,8 +37,10 @@
 		"sass-loader": "^13.3.2",
 		"style-loader": "^3.3.3",
 		"stylelint": "^15.10.3",
+		"stylelint-config-rational-order": "^0.1.2",
 		"stylelint-config-standard": "^34.0.0",
 		"stylelint-config-standard-scss": "^11.0.0",
+		"stylelint-order": "^6.0.3",
 		"typescript": "^5.2.2",
 		"webpack": "^5.88.2",
 		"webpack-cli": "^5.1.4",

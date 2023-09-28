@@ -1,2 +1,3 @@
-const root = document.getElementById('root');
-console.log(root);
+import './scss/index.scss';
+
+console.log('Working!');
