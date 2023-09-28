@@ -5,7 +5,7 @@ module.exports = {
 	plugins: [
 		require('postcss-preset-env'),
 		postcssGlobalData({
-			files: ['src/app/styles/queries.scss'],
+			files: ['src/scss/queries.scss'],
 		}),
 		postcssCustomMedia(),
 	],
